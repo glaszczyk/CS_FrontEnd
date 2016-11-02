@@ -1,0 +1,31 @@
+.row {
+	border-top: 1px solid #ccc;
+	padding: 10px 0;
+	display: flex;
+	&__id {
+		flex: 1;
+		text-align: center;
+	}
+	&__user {
+		flex: 3;
+		text-align: center;
+	}
+	&__post-title {
+		flex: 4;
+		padding-left: 10px;
+	}
+	&__views {
+		flex: 1;
+		padding-right: 10px;
+		text-align: right;
+	}
+	&__likes {
+		flex: 1;
+		padding-right: 10px;
+		text-align: right;
+	}
+	&__created {
+		flex: 2;
+		padding-left: 10px;
+	}
+}
